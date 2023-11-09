@@ -3,3 +3,29 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+
+# config/routes.yaml
+# Definition d'une route
+# nom_de_la_route: 
+# conference: 
+#     # URL qui accede a la fonction
+#     path: /conference
+#     # the controller value has the format 'controller_class::method_name'
+#     controller: App\Controller\ConferenceController::index
+
+# Definition d'une route
+# # nom_de_la_route: 
+# recherche: 
+#     # URL qui accede a la fonction
+#     path: /recherche
+#     # the controller value has the format 'controller_class::method_name'
+#     controller: App\Controller\BlogApiController::show
+
+# Definition d'une route
+# # nom_de_la_route: 
+# affiche: 
+#     # URL qui accede a la fonction
+#     path: /affiche
+#     # the controller value has the format 'controller_class::method_name'
+#     controller: App\Controller\BlogApiController::string
